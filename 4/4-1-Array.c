@@ -69,7 +69,8 @@ void arrTest() {
 
     const int row = 10;
     const int col = 10;
-    char** arr = initArray(arr, row, col);
+    char** arr;
+    arr = initArray(arr, row, col);
     fillArray(arr, row, col);
     printArray(arr, row, col);
 
